@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website</title>
+
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- bootstrap js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+    <!-- external css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- navigation section-->
+    <section class="navigation">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid nav-container ">
+              <a class="navbar-brand" href="#">
+                <img src="/images/nav_logo.png" id="logo_img" alt="nav_logo"><span id="logo_desc">College</span> 
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+                <div class="navbar-nav nav-bar">
+                  <a class="nav-link" aria-current="page" href="#carousel">Home</a>
+                  <a class="nav-link" href="#dept">Details</a>
+                  <a class="nav-link" href="#abt">About</a>
+                  <a class="nav-link" href="#eve">Events</a>
+                  <a class="nav-link" href="#cont">Contact</a>
+                </div>
+              </div>
+            </div>
+          </nav> 
+    </section>
+      
+
+      <!-- coarousel section -->
+      
+      <section class="Carousel" id="carousel">
+        <!-- alerts -->
+        <div id="liveAlertPlaceholder" class="live-alert fixed-top"></div>
+        <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/College_img.jpeg" class="d-block w-100" height="700vh" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/College_img1.jpeg" class="d-block w-100" height="700vh"alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/College_img2.jpeg" class="d-block w-100"height="700vh" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </section>
+
+      <!-- department section -->
+     <section class="department" id="dept">
+        <div class="container-fluid dept-container row">
+          <h1>Department Details</h1>
+            
+                <div class="card dept-card mb-4 img-fluid">
+                  <img src="images/CSE.png" class="dept-card-img"alt="..." >
+                  <div class="card-body">
+                    <h5 class="card-title">CSE</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, voluptate?</p>
+                    <a href="#" class="btn btn-primary mybtn">View More </a>
+                  </div>
+                </div>
+    
+              <div class="card dept-card mb-4 ">
+                <img src="images/ISE.png" class="card-img-top dept-card-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">IS</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, voluptate?</p>
+                  <a href="#" class="btn btn-primary mybtn">View More </a>
+                </div>
+              </div>
+    
+              <div class="card dept-card mb-4 ">
+                <img src="images/ECE.png" class="card-img-top dept-card-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">ECE</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, voluptate?</p>
+                  <a href="#" class="btn btn-primary mybtn">View More </a>
+                </div>
+              </div>
+         
+            
+            
+              <div class="card dept-card mb-4 ">
+                <img src="images/EEE.png" class="card-img-top dept-card-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">EEE</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, voluptate?</p>
+                  <a href="#" class="btn btn-primary mybtn">View More </a>
+                </div>
+              </div>
+
+              <div class="card dept-card mb-4 ">
+                <img src="images/CIV.png" class="card-img-top dept-card-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">CIV</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, voluptate?</p>
+                  <a href="#" class="btn btn-primary mybtn">View More </a>
+                </div>
+              </div>
+
+              <div class="card dept-card mb-4 ">
+                <img src="images/MECH.png" class="card-img-top dept-card-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">MECH</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, voluptate?</p>
+                  <a href="#" class="btn btn-primary mybtn">View More </a>
+                </div>
+              </div>
+          
+        </div>
+     </section>
+    
+  
+      <!-- about  section -->
+      <section class="about" id="abt">
+          <div class="container-fluid about-container">
+            <h1>About</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ipsam ipsa alias voluptate voluptatibus officia vero officiis vel quisquam quam rem culpa ex perferendis optio magnam, adipisci ea molestias minus esse dolor consequatur? Enim aliquid dolorem doloremque sit numquam, blanditiis facilis quasi placeat ab dolore fugit error vero ipsa dolorum itaque excepturi dolores odio, nisi laudantium praesentium recusandae libero ad tempore? Impedit ipsum beatae, aliquam optio nostrum voluptate! Sed, exercitationem voluptas ea itaque ut necessitatibus officia velit, reiciendis iure dolor provident aspernatur sit. Tempore inventore sed quia aspernatur ea eaque repellendus dignissimos, suscipit omnis vel odit, laudantium vitae vero atque doloribus quis! Exercitationem, voluptate? Id, distinctio nostrum? Neque, nemo ipsum, odio cumque consequatur ratione autem eius ducimus reiciendis ad quia pariatur maxime, laboriosam nam officia quo? Illum fuga eum molestiae non minima animi iusto rem consequatur sint perferendis, ipsam veniam nihil eos, quisquam totam nam ducimus, in deleniti laudantium. Quod ex similique ad placeat numquam corrupti temporibus nam eius nesciunt ipsa reiciendis, dolorum suscipit non earum nulla quasi, sunt perferendis doloribus! Deleniti inventore illo vel unde voluptate quos ut placeat, ullam nobis atque impedit commodi temporibus dicta consequatur blanditiis dolor quasi fugiat porro? Et minus numquam a. Veniam, vitae ea!</p>
+          <button class="btn btn-warning abt-btn">Learn More</button>
+          </div>
+          
+
+      </section>
+
+      <!-- event section -->
+      <section class="event" id="eve">
+            <div class="container-fluid event-container row">
+                <h1>Events</h1>
+                <div class="card event-card mb-4 ">
+                    <img src="images/events.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Event-1</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia, voluptate?</p>
+                      <a href="#" class="btn btn-primary mybtn" id="liveAlertBtn1">See More </a>
+                    </div>
+                  </div>
+    
+                  <div class="card event-card mb-4" >
+                    <img src="images/events.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Event-2</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, error.</p>
+                      <a href="#" class="btn btn-primary mybtn" id="liveAlertBtn2">See More  </a>
+                    </div>
+                  </div>
+    
+                  <div class="card event-card mb-4" >
+                    <img src="images/events.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Event-3</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, tempore.</p>
+                      <a href="#" class="btn btn-primary mybtn" id="liveAlertBtn3">See More </a>
+                    </div>
+                  </div>
+
+                  <div class="card event-card  mb-4">
+                    <img src="images/events.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Event-4</h5>
+                      <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda, temporibus!</p>
+                      <a href="#" class="btn btn-primary mybtn" id="liveAlertBtn4">See More </a>
+                    </div>
+                  </div>
+                  
+            </div> 
+            
+      </section>
+
+      <!-- contact section -->
+      <section class="contact" id="cont">
+            <div class="container row contact-container ">
+              <h1>Contact details</h1>
+              <div  class="contact-details">
+                <div class="contact-details-left">
+                  
+                    <h4>Sai Vidya Institute of Technology</h4>
+                    <p>Address:</p>
+                    <p>Rajanukunte, Via Yalahanka,Bengaluru,<br>Karnataka 560 064 India</p>
+                    <p><span>Tel:</span>+91-80-28468191/96/97<br><span>Fax:</span>  +91-80-28468193</p> 
+                 
+                </div>
+                <div class="contact-details-right">
+                  <h4>Location:</h4><br>
+                  <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3884.9074214088137!2d77.55646146434785!3d13.168236890727078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae21e08de3c30f%3A0x508643e97dc5d012!2sSAI%20VIDYA%20INSTITUTE%20OF%20TECHNOLOGY%2C%20Rajanukunte%2C%20Karnataka%20560064!5e0!3m2!1sen!2sin!4v1632402686484!5m2!1sen!2sin"   style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+              </div>
+              
+            </div>
+      </section>
+
+     
+      
+      <!-- external js -->
+      <script src="./main.js"></script>
+</body>
+</html>
